@@ -273,4 +273,56 @@ footer{
 /*---------------------
     For medium device
 ----------------------*/
-
+@media only screen and (min-width:688px) and (max-width:992px){
+    .banner{
+        width: 100%;
+        height: auto;
+    }
+    .welcome-part{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .welcome-image{
+        position: relative;
+        /* display: none;*/ 
+    } 
+    .image img{
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 90px;
+        left: 10px;
+    } 
+    .players{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+    }
+    .shows{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .football-shows{
+        height: auto;
+    }
+    
+    .sponsers{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        width: 100%;
+        height: auto;
+    }
+    .sponser{
+        margin: 40px;
+    }
+    .football-img img{
+        width: 60%;
+        height: auto;
+        margin: 20px;
+        padding-left: 90px; 
+    }
+}
